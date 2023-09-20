@@ -76,3 +76,6 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 # Environment Variables
 gem 'dotenv-rails', groups: %i[development test]
+
+# Login and Authentication
+gem 'devise'
