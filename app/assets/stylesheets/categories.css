@@ -1,100 +1,97 @@
-/* app/assets/stylesheets/categories.css */
-
 .category {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    text-align: center;
-    background-color: #fff;
-    display: flex;
-    width: 97%;
-    gap: 18%;
-    padding: 21px;
-    height: 100px;
-  }
-  
-  .category h3 {
-    margin: 10px 0;
-  }
-  
-  .category img {
-    max-width: 50px;
-    max-height: 50px;
-  }
-  
-  .category p {
-    margin: 10px 0;
-  }
-  
-  .category a {
-    display: block;
-    color: #434b54;
-    text-decoration: none;
-    background-color: #fff;
-  }
-  
-  .cat-p a {
-    background-color: #5fb523;
-    width: 92%;
-  }
-  
-  .category a:hover {
-    color: #0056b3;
-    font-family: cursive;
-  }
-  
-  .date {
-    font-size: 10px;
-  }
-  
-  .icon-div {
-    width: 145px;
-    height: 100px;
-  }
-  
-  .cat-p {
-    text-align: center;
-  }
-  
-  .namount {
-    color: #434b54;
-    margin-left: -17%;
-    margin-top: -17px;
-  }
-  
-  .cat-name input {
-    height: 40px;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
-  }
-  
-  .cat-icon input {
-    height: 40px;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
-  }
-  
-  .cat-h2 {
-    color: #434b54;
-  }
-  
-  .cat-sub input {
-    width: 100%;
-    margin-top: 30%;
-    height: 30px;
-    background-color: #5fb523;
-    color: #fff;
-    border: 1px solid;
-  }
-  
-  .category-link {
-    background-color: transparent;
-    padding: 0;
-    padding-top: 20px;
-    padding-left: 7px;
-    width: 90%;
-  }
-  
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  width: 97%;
+  gap: 18%;
+  padding: 21px;
+  height: 100px;
+}
+
+.category h3 {
+  margin: 10px 0;
+}
+
+.category img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.category p {
+  margin: 10px 0;
+}
+
+.category a {
+  display: block;
+  color: #434b54;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.cat-p a {
+  background-color: #5fb523;
+  width: 92%;
+}
+
+.category a:hover {
+  color: #0056b3;
+  font-family: cursive;
+}
+
+.date {
+  font-size: 10px;
+}
+
+.icon-div {
+  width: 145px;
+  height: 100px;
+}
+
+.cat-p {
+  text-align: center;
+}
+
+.namount {
+  color: #434b54;
+  margin-left: -17%;
+  margin-top: -17px;
+}
+
+.cat-name input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.cat-icon input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.cat-h2 {
+  color: #434b54;
+}
+
+.cat-sub input {
+  width: 100%;
+  margin-top: 30%;
+  height: 30px;
+  background-color: #5fb523;
+  color: #fff;
+  border: 1px solid;
+}
+
+.category-link {
+  background-color: transparent;
+  padding: 0;
+  padding-top: 20px;
+  padding-left: 7px;
+  width: 90%;
+}
