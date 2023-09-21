@@ -112,13 +112,7 @@ rails server
 👤 **Author1**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
-
-👤 **Author2**
-- GitHub: [@Kel-nana](https://github.com/Kel-nana) 
-- Twitter: [@kelvin-irungu](https://twitter.com/home)
-- LinkedIn: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
- 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/ 
 
 ## 🔭 Future Features <a name="future-features"></a> 
  

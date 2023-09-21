@@ -3,22 +3,24 @@
 
 <div class="big_div">
   <% @categories.each do |category| %>
-    <%= link_to category_transactions_path(category), class: "category-link" do %>
-      <div class="category">
-        <div class='icon-div'>
-          <% if category.icon.present? %>
-            <%= image_tag category.icon %>
-          <% else %>
-            <span class="no-icon-placeholder">No icon available</span>
-          <% end %>
-        </div>
-        <div class="namount">
-          <h3><%= category.name %></h3>
-          <div class="date"><%= category.created_at.strftime('%d-%b-%Y') %></div>
-        </div>
-        <p>$<%= category.total_amount %></p>
-      </div>
+  <%= link_to category_transactions_path(category), class: "category-link" do %>
+    <div class="category">
+    <div class='icon-div'>
+      <% if category.icon.present? %>
+  <%= image_tag category.icon %>
+<% else %>
+  <span class="no-icon-placeholder">No icon available</span>
+<% end %>
+    </div>
+    <div class="namount">
+    <h3><%= category.name %></h3>
+
+      <div class="date"><%= category.created_at.strftime('%d-%b-%Y') %></div>
+    </div>
+      <p>$<%= category.total_amount %></p>
+    </div>
     <% end %>
   <% end %>
   <p class="cat-p"><%= link_to 'Add Category', new_category_path %></p>
 </div>
+
