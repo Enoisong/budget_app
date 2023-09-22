@@ -1,13 +1,14 @@
 <% if user_signed_in? %>
-  <div class="user-menu">
-    <p class='big-title'><%= controller_name.titleize %></p>
-    <div class="signout">
-      <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger signout-btn" %>
-    </div>
+<div class="user-menu">
+
+  <p class='big-title'><%= controller_name.titleize %></p>
+  <div class="sinout">
+<%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger signout-btn" %>
   </div>
+</div>
 <% else %>
-  <div class="user-menu">
-    <%= link_to "Sign Up", new_user_registration_path %>
-    <%= link_to "Sign In", new_user_session_path %>
-  </div>
+<div class="user-menu">
+  <%= link_to "Sign Up", new_user_registration_path %>
+  <%= link_to "Sign In", new_user_session_path %>
+</div> 
 <% end %>

@@ -1,4 +1,4 @@
-  # blog_app
+  # budget_app
   
   <a name="readme-top"></a>
  # 📗 Table of Contents
@@ -22,36 +22,40 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 blog_app <a name="about-project"></a> 
+# 📖 budget_app<a name="about-project"></a> 
 
-> **[blog_app]** is an application built to share blog posts and establish a community between international developers.
+> **[budget_app]** is a budgeting app designed to empower users on their journey towards financial wellness.Budget_app makes budgeting a breeze as users are well equipped to take charge of their finances, make informed decisions and achieve financial goals.
  
 ## 🛠 Built With <a name="built-with"></a>
- ### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
  > This database is created using:
   - Ruby on Rails
   - Postgres
-
+ 
  <details>
- <summary>blog_app</summary>
- <ul>
- <li><a href="https://www.postgresql.org/">PostgreSQL</a><li>
- </ul>
- </details>
+  <summary>Client Side / Front-End</summary>
+  <ul><
+    <li><a href="https://https://https://gorails.com/">Ruby on Rails</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server Side / Back-End</summary>
+  <ul>
+    <li><a href="https://postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://render.com/">Render</a></li>
+    <li><a href="https://https://gorails.com/">Rails</a></li>
+  </ul>
+</details>
 
  ### Key Features <a name="key-features"></a>
  
-  - **[Creating blog posts]**
-  - **[Blog post interactions]**
-  - **[User authentication]**
-  - **[Model Rspec and Validation]**  
-  - **[ Controllers Specs ]**
-  - **[ Views ]**
-  - **[ Fix n+1 Problem]**
-  - **[ Integration Test]**
-   - **[ Add devise]**
-   
+  - **[Budget Creation]**
+  - **[Expense Tracking on Real Time]**
+  - **[Customized Categories**
+  - **[User-Friendly Interface]**    
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Enoisong/blog_app.git
+  git clone https://github.com/Enoisong/budget_app.git
 ```
 
 ### Install
@@ -109,16 +113,16 @@ rails server
 <!-- AUTHORS -->
 ## 👥 Author <a name="author"></a>  
  
-👤 **Author1**
+👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/ 
 
 ## 🔭 Future Features <a name="future-features"></a> 
  
-- **[More Users Interation]**
-- **[Animation ]**
-
+- **[Expense Sharing]**
+- **[Budget Insights ]**
+- **[Expense Receipt Scanning]**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,6 +151,8 @@ someone who enjoys coding! or still give me a ⭐️!
 -	Thanks to the Code Reviewer(s) for the insightly feedbacks.
 -	A great thanks to my coding partner(s), morning session team 
     and standup team for their contributions.
+  
+This Project design was guided based on the Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  

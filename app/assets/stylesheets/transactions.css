@@ -1,101 +1,100 @@
 /* app/assets/stylesheets/transactions.css */
 
 .transaction {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #fff;
-  }
-  
-  .transaction h3 {
-    margin: 10px 0;
-  }
-  
-  .transaction p {
-    margin: 10px 0;
-  }
-  
-  .add-trans a {
-    width: 93%;
-    background-color: #5fb523;
-  }
-  
-  .transaction a {
-    display: block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .transaction a:hover {
-    background-color: #0056b3;
-  }
-  
-  .t-head {
-    background-color: #3778c2;
-    height: 100px;
-    color: #fff;
-    font-weight: 900;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    gap: 10%;
-  }
-  
-  h2 {
-    color: #fff;
-    text-align: center;
-    font-weight: 900;
-  }
-  
-  .bck {
-    font-size: 20px;
-  }
-  
-  .add-trans {
-    margin-top: 65%;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .trans-name input {
-    height: 40px;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
-  }
-  
-  .trans-amt input {
-    height: 40px;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
-  }
-  
-  .trans-h2 {
-    color: #434b54;
-  }
-  
-  .trans-cat select {
-    margin-left: 32%;
-    margin-top: 20px;
-    width: 35%;
-    text-align: center;
-  }
-  
-  .trans-sub input {
-    width: 100%;
-    margin-top: 30%;
-    height: 30px;
-    background-color: #5fb523;
-    color: #fff;
-    border: 1px solid;
-  }
-  
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.transaction h3 {
+  margin: 10px 0;
+}
+
+.transaction p {
+  margin: 10px 0;
+}
+
+.add-trans a {
+  width: 93%;
+  background-color: #5fb523;
+}
+
+.transaction a {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.transaction a:hover {
+  background-color: #0056b3;
+}
+
+.t-head {
+  background-color: #3778c2;
+  height: 100px;
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 10%;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+}
+
+.bck {
+  font-size: 20px;
+}
+
+.add-trans {
+  margin-top: 65%;
+  text-align: center;
+  width: 100%;
+}
+
+.trans-name input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.trans-amt input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.trans-h2 {
+  color: #434b54;
+}
+
+.trans-cat select {
+  margin-left: 32%;
+  margin-top: 20px;
+  width: 35%;
+  text-align: center;
+}
+
+.trans-sub input {
+  width: 100%;
+  margin-top: 30%;
+  height: 30px;
+  background-color: #5fb523;
+  color: #fff;
+  border: 1px solid;
+}
