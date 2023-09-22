@@ -4,7 +4,7 @@ require 'rails_helper'
 RSpec.feature 'Splash', type: :feature do
   it 'User visits the splash screen' do
     visit root_path
-    expect(page).to have_content("Welcome to My Budget App")
+    expect(page).to have_content('Welcome to My Budget App')
   end
 
   it "User clicks 'Sign Up' link on the splash screen" do
