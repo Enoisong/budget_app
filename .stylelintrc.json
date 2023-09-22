@@ -33,7 +33,7 @@
     "dist/**",
     "**/reset*.css",
     "**/bootstrap*.css",
-    "**/*.css",        
-    "**/*.scss"     
+    "**/*.css", 
+    "**/*.scss"
   ]
 }
