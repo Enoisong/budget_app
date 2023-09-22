@@ -6,6 +6,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack) 
     - [Key Features](#key-features) 
+    - [🚀 Live Demo ](#-live-demo-)
+    - [Video Presentation ](#video-presentation-)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,6 +60,18 @@
   - **[User-Friendly Interface]**    
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+  <!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://enobong.onrender.com)
+
+<!-- Presentation -->
+
+## Video Presentation <a name="video"></a>
+
+- [Budget_app Video Presentation](https://www.loom.com/share/b512ceb4c84d481f8590e205fdf442f2 )
 
  <!-- GETTING STARTED -->
 
