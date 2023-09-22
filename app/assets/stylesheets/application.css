@@ -14,9 +14,9 @@
  *= require_self
  */
 
- /* app/assets/stylesheets/splash.css */
+/* app/assets/stylesheets/splash.css */
 
- .big_div {
+.big_div {
   display: flex;
   flex-direction: column;
   width: 100%;
