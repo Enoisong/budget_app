@@ -13,3 +13,75 @@
  *= require_tree .
  *= require_self
  */
+
+/* app/assets/stylesheets/splash.css */
+
+.big_div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.big-title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+.user-menu {
+  background-color: #3778c2;
+  width: 100%;
+}
+
+.sinout form {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #3778c2;
+  align-items: flex-end;
+  color: #fff;
+  font-size: 15px;
+}
+
+.sinout button {
+  outline: none;
+  border: none;
+  background-color: #3778c2;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.t-heade {
+  background-color: #3778c2;
+  height: 100px;
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 30%;
+}
+
+.field input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.actions input {
+  margin-left: -35px;
+  margin-top: 30px;
+  background-color: #3778c2;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.bck-link {
+  background-color: #3778c2;
+}

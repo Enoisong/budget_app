@@ -1,0 +1,171 @@
+/* app/assets/stylesheets/categories.css */
+
+.category {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  width: 97%;
+  gap: 20%;
+  padding-bottom: 10px;
+  padding-top: 20px ;
+  height: 70px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.category h3 {
+  margin: 5px 0;
+}
+
+.category img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.category p {
+  margin: 10px 0;
+}
+
+.category a {
+  display: block;
+  color: #434b54;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.cat-p a {
+  background-color: #5fb523;
+  width: 92%;
+}
+
+.category a:hover {
+  color: #0056b3;
+  font-family: cursive;
+}
+
+.date {
+  font-size: 10px;
+}
+
+.icon-div {
+  width: 145px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+.cat-p {
+  text-align: center; 
+  position: relative;
+  top: 30px;  
+  width: 100%; 
+}
+ 
+.namount {
+  color: #434b54;
+  margin-left: -4%;
+  margin-top: -17px;
+}
+
+.cat-name input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.cat-icon input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.cat-h2 {
+  color: #434b54;
+ 
+}
+
+.cat-sub input {
+  width: 100%;
+  margin-top: 30%;
+  height: 30px;
+  background-color: #5fb523;
+  color: #fff;
+  border: 1px solid;
+}
+
+.category-link, a.category-link {
+  background-color: transparent;
+  margin-top: 5px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-left: 7px;
+  width: 90%;
+}
+ 
+ .big.title {    
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  }
+
+  .big.title i {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ 
+  .big_div {
+    padding-top: -70px; 
+  } 
+   */   */
+ 
+ /* CSS for positioning elements within the user-menu */
+ .user-menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f0f0f0; /* Add background color as needed */
+   padding: 5px 10px; /* Add padding as needed */
+ }
+
+ .menu-items {
+   display: flex;
+   align-items: left;
+ }
+
+ .left {
+   margin-right: auto; /* Pushes the Hamburger icon to the left end */
+ }
+
+ .right {
+   margin-left: auto; /* Pushes the Search icon to the right end */
+ }
+
+ .middle {
+   text-align: center;
+ }
+
+ /* Style the hamburger and search icons */
+ .menu-items i {
+   color: white; /* Change icon color to white */
+   font-size: 2em; /* Set icon size to 2x */
+   margin: 0 10px; /* Adjust the margin as needed */
+ }
+
+ .custom-icon {
+  font-size: 0.5em; 
+ }
+
+  body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  }  
+   

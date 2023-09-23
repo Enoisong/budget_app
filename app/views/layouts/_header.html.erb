@@ -1,0 +1,25 @@
+<% if user_signed_in? %>
+  <div class="user-menu">
+    <div class="sinout">
+      <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger signout-btn" %>
+    </div>
+    <div class="menu-items">
+      <div class="left">
+      <i class="fas fa-bars custom-icon" style="color: white;"></i> <!-- Hamburger icon -->
+      </div>
+      <div class="middle">
+        <p class='big-title'><%= controller_name.titleize %></p> <!-- Category -->
+      </div>
+      <div class="right">
+      <i class="fas fa-search custom-icon" style="color: white;"></i> <!-- Search icon -->
+      </div>
+    </div>
+  </div>
+<% else %>
+  <div class="user-menu">
+    <div class="middle">
+      <%= link_to "Sign Up", new_user_registration_path %>
+      <%= link_to "Sign In", new_user_session_path %>
+    </div>
+  </div> 
+<% end %>

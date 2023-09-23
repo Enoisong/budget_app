@@ -1,0 +1,32 @@
+<!-- app/views/transactions/new.html.erb -->
+
+<h2 class="trans-h2">Create a New Transaction</h2>
+
+<%= form_with(model: @transaction, url: category_transactions_path(@category), local: true) do |form| %>
+  <div class="trans-name">
+    <%= form.text_field :name, placeholder: 'Transaction Name' %>
+  </div>
+
+  <div class="trans-amt">
+    <%= form.number_field :amount, placeholder: 'Amount' %>
+  </div>
+
+  <div class="trans-cat">
+    <%= form.collection_select :category_id, @categories, :id, :name, placeholder: 'Select a Category' %>
+  </div>
+
+  <div class="trans-sub">
+    <%= form.submit "Save Transaction" %>
+  </div>
+<% end %>
+
+<% if @transaction.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
+    <ul>
+      <% @transaction.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>

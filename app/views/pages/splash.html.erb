@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget_app</title>  
+  <%= stylesheet_link_tag 'splash', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap">
+</head>
+<body>
+  <div class="container">
+    <h1>My Budget App</h1> 
+    <div class="enter">
+      <%= link_to 'SIGN UP', new_user_registration_path, class: "sign-up-link" %>
+      <%= link_to 'LOG IN', new_user_session_path, class: "sign-in-link" %>
+    </div>
+  </div>
+</body>
+</html>
