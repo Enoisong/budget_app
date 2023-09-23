@@ -168,8 +168,7 @@
   padding: 0;
   /* overflow: hidden; */
   }
-  .user-menu {
- 
+  .user-menu { 
     display: flex;
     flex-direction: column;
     align-items: stretch;
