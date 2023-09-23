@@ -71,7 +71,7 @@
 
 ## Video Presentation <a name="video"></a>
 
-- [Budget_app Video Presentation](https://www.loom.com/share/c1f9ed7ab0a84bae9ab907df5295cc47)
+- [Budget_app Video Presentation](https://www.loom.com/share/c1f9ed7ab0a84bae9ab907df5295cc47) 
 
  <!-- GETTING STARTED -->
 

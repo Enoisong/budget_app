@@ -17,7 +17,7 @@
 }
 
 .category h3 {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .category img {
@@ -59,7 +59,7 @@
 .cat-p {
   text-align: center; 
   position: relative;
-  top: 60px;  
+  top: 30px;  
   width: 100%; 
 }
  
@@ -87,6 +87,7 @@
 
 .cat-h2 {
   color: #434b54;
+ 
 }
 
 .cat-sub input {
@@ -161,4 +162,21 @@
  .custom-icon {
   font-size: 0.5em; 
  }
+
+  body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  }
+  .user-menu {
  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;  
+  }  
+  
