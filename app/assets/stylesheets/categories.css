@@ -168,14 +168,4 @@
   padding: 0;
   /* overflow: hidden; */
   }
-  .user-menu { 
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;  
-  }   
-  
+   
