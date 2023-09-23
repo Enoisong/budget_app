@@ -1,26 +1,37 @@
 <!-- app/views/categories/index.html.erb -->
-<%= render partial: 'layouts/header' %>
-
-<div class="big_div">
-  <% @categories.each do |category| %>
-  <%= link_to category_transactions_path(category), class: "category-link" do %>
-    <div class="category">
-    <div class='icon-div'>
-      <% if category.icon.present? %>
-  <%= image_tag category.icon %>
-<% else %>
-  <span class="no-icon-placeholder">No icon available</span>
-<% end %>
-    </div>
-    <div class="namount">
-    <h3><%= category.name %></h3>
-
-      <div class="date"><%= category.created_at.strftime('%d-%b-%Y') %></div>
-    </div>
-      <p>$<%= category.total_amount %></p>
-    </div>
-    <% end %>
-  <% end %>
-  <p class="cat-p"><%= link_to 'Add Category', new_category_path %></p>
-</div>
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Your Page Title</title>
+  <!-- Add the Font Awesome link here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ 
+</head>
+<body>
+  <%= render partial: 'layouts/header' %>
+   
+    <% @categories.each do |category| %>
+      <%= link_to category_transactions_path(category), class: "category-link" do %>
+        <div class="category">
+          <div class='icon-div'>
+            <% if category.icon.present? %>
+              <%= image_tag category.icon %>
+            <% else %>
+              <span class="no-icon-placeholder">No icon available</span>
+            <% end %>
+          </div>
+          <div class="namount">
+            <h3><%= category.name %></h3>
+            <div class="date"><%= category.created_at.strftime('%d-%b-%Y') %></div>
+          </div>
+          <p>$<%= category.total_amount %></p>
+        </div>
+      <% end %>
+    <% end %>    
+  </div>
+  <div class="user-name">  
+  </div>
+  <p class="cat-p"><%= link_to 'Add Category', new_category_path %></p>  
+</body>
+</html>

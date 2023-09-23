@@ -1,21 +1,27 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
+  background-color: #e5e7eb;
 }
 
 .container {
   text-align: center;
-  background-color: #fff;
+  background-color:  #e5e7eb;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   height: 78vh;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 10px;
   color: #434b54;
+  font-family: 'Satisfy', cursive;
+  display: flex;
+  flex-direction: column;
+  margin: 250px 0;
+  align-items: center;
 }
 
 p {
@@ -37,11 +43,13 @@ a {
 
 .sign-up-link {
   background-color: #3778c2;
+  font-size: small;
 }
 
 .sign-in-link {
   background-color: #fff;
   color: #434b54;
+  font-size: small;
 }
 
 .sign-in-link:hover {
@@ -54,4 +62,8 @@ a {
   flex-direction: column;
   gap: 25px;
   margin-top: 260px;
+}
+
+.p-notice {
+  font-size: small;
 }
